@@ -10,7 +10,7 @@ import pygame
 
 class Snakey:
 
-    def __init__(self, Row=15, Column=20):
+    def __init__(self, Row=20, Column=20):
         pygame.init()  # pygame初始化
         self.score = 0
         self.Tx_font = pygame.font.SysFont('arial', 30)
