@@ -36,4 +36,11 @@ def fun2(*args1,**args2):
 
 fun2(1,2,3,a=8,b=9) #(1, 2, 3) {'a': 8, 'b': 9}
 
+'''global用法'''
+def fun3(a,b):
+    global sum1
+    sum1=a+b
+
+fun3(1,2)
+print(sum1)
 
