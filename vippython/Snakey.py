@@ -30,7 +30,7 @@ class Snakey:
         self.color = self.screen.get_at((self.Side // 2, self.Side // 2))
         """
         for i in range(self.Column+1):
-            pygame.draw.line(self.screen, (0,0,0), (i*self.Side,0), (i*self.Side,Row*self.Side), 2)
+            pygame.draw.line(self.screen, (0,0,0), (i*self.Side,0), (i*self.Side,Row*self.Side), 2) 
         for i in range(self.Row+1):
             pygame.draw.line(self.screen, (0,0,0), (0,i*self.Side), (Column*self.Side,i*self.Side), 2)
         """
