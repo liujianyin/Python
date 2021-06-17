@@ -27,7 +27,7 @@ class Snakey:
             food = [random.randint(0, Column - 1), random.randint(0, Row - 1)]
         pygame.draw.rect(self.screen, (0, 255, 0), (food[0] * self.Side, food[1] * self.Side, self.Side, self.Side))
         self.direct = 0
-        self.color = self.screen.get_at((self.Side // 2, self.Side // 2))
+        self.color = self.screen.get_at((self.Side // 2, self.Side // 2)) 
         """
         for i in range(self.Column+1):
             pygame.draw.line(self.screen, (0,0,0), (i*self.Side,0), (i*self.Side,Row*self.Side), 2) 
